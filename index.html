@@ -1,116 +1,148 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-  <meta charset="UTF-8">
-  <title>Bảng tin số 26/3 - 10A7</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: linear-gradient(to right, #0f172a, #1e3a8a);
-      color: white;
-      text-align: center;
-    }
+<meta charset="UTF-8">
+<title>26/3 - Thanh niên với khát vọng số</title>
 
-    header {
-      background: #0ea5e9;
-      padding: 20px;
-      font-size: 28px;
-      font-weight: bold;
-      text-transform: uppercase;
-    }
+<style>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(120deg, #0f172a, #1e3a8a);
+  color: white;
+}
 
-    .container {
-      padding: 20px;
-    }
+/* HEADER */
+header {
+  padding: 30px;
+  text-align: center;
+  background: linear-gradient(90deg, #06b6d4, #3b82f6);
+  box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+}
 
-    .title {
-      font-size: 24px;
-      margin: 20px 0;
-      color: #38bdf8;
-    }
+header h1 {
+  margin: 0;
+  font-size: 32px;
+}
 
-    .content {
-      max-width: 800px;
-      margin: auto;
-      line-height: 1.6;
-      font-size: 18px;
-    }
+header p {
+  margin-top: 10px;
+  font-size: 18px;
+}
 
-    .video {
-      margin-top: 30px;
-    }
+/* CONTAINER */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
 
-    iframe {
-      width: 80%;
-      height: 400px;
-      border-radius: 15px;
-      border: none;
-    }
+/* CARD */
+.card {
+  background: rgba(255,255,255,0.08);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 25px;
+  margin: 20px 0;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  transition: 0.3s;
+}
 
-    footer {
-      margin-top: 40px;
-      padding: 15px;
-      background: #020617;
-      font-size: 14px;
-      color: #94a3b8;
-    }
+.card:hover {
+  transform: translateY(-5px);
+}
 
-    .badge {
-      background: #22c55e;
-      padding: 5px 12px;
-      border-radius: 20px;
-      display: inline-block;
-      margin-top: 10px;
-    }
-  </style>
+/* TITLE */
+.title {
+  font-size: 24px;
+  color: #38bdf8;
+  margin-bottom: 10px;
+}
+
+/* VIDEO */
+video {
+  width: 100%;
+  border-radius: 15px;
+  margin-top: 15px;
+  box-shadow: 0 0 20px rgba(56,189,248,0.5);
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #020617;
+  color: #94a3b8;
+  margin-top: 30px;
+}
+
+/* BADGE */
+.badge {
+  display: inline-block;
+  background: #22c55e;
+  padding: 6px 14px;
+  border-radius: 20px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* HIỆU ỨNG CHỮ */
+.glow {
+  color: #38bdf8;
+  text-shadow: 0 0 10px #38bdf8;
+}
+</style>
+
 </head>
 
 <body>
 
 <header>
-  Bảng Tin Số 26/3 - Lớp 10A7
+  <h1 class="glow">🌟 BẢNG TIN SỐ 26/3</h1>
+  <p>Thanh niên với khát vọng số</p>
+  <div class="badge">Lớp 10A7 - THPT Bình Gia</div>
 </header>
 
 <div class="container">
 
-  <div class="title">
-    "Thanh niên với khát vọng số"
-  </div>
-
-  <div class="badge">THPT Bình Gia</div>
-
-  <div class="content">
+  <!-- GIỚI THIỆU -->
+  <div class="card">
+    <div class="title">🔥 Tinh thần tuổi trẻ</div>
     <p>
-      Nhân dịp ngày 26/3 - Ngày thành lập Đoàn TNCS Hồ Chí Minh, 
-      tập thể lớp 10A7 đã tích cực tham gia nhiều hoạt động ý nghĩa, 
-      thể hiện tinh thần nhiệt huyết, sáng tạo và khát vọng vươn lên 
-      trong thời đại công nghệ số.
+      Hưởng ứng ngày thành lập Đoàn TNCS Hồ Chí Minh 26/3, tập thể lớp 10A7
+      đã thể hiện rõ tinh thần nhiệt huyết, sáng tạo và khát vọng vươn lên.
     </p>
-
     <p>
-      Với tinh thần “Thanh niên với khát vọng số”, lớp 10A7 không chỉ 
-      học tập tốt mà còn ứng dụng công nghệ vào các hoạt động Đoàn, 
-      lan tỏa năng lượng tích cực và xây dựng hình ảnh thanh niên hiện đại.
+      Trong thời đại số, thanh niên không chỉ học tập mà còn chủ động ứng dụng
+      công nghệ để lan tỏa giá trị tích cực, khẳng định bản lĩnh và trí tuệ.
     </p>
   </div>
 
-    <div class="video">
-  <h2>🎬 Video hoạt động Đoàn của lớp</h2>
+  <!-- VIDEO -->
+  <div class="card">
+    <div class="title">🎬 Video hoạt động Đoàn</div>
 
-  <video controls width="80%" style="border-radius:15px;">
-    <source src="video10a7.mp4" type="video/mp4">
-    Trình duyệt không hỗ trợ video.
-  </video>
+    <video controls>
+      <source src="video10a7.mp4" type="video/mp4">
+      Trình duyệt không hỗ trợ video
+    </video>
 
-</div>
+  </div>
 
+  <!-- THÔNG ĐIỆP -->
+  <div class="card">
+    <div class="title">🚀 Thông điệp</div>
+    <p>
+      Tuổi trẻ 10A7 – dám nghĩ, dám làm, dám đổi mới.
+      Hãy cùng nhau chinh phục công nghệ và viết nên hành trình rực rỡ
+      của thế hệ thanh niên thời đại số!
+    </p>
   </div>
 
 </div>
 
 <footer>
-  © 2026 - Lớp 10A7 | THPT Bình Gia | Đoàn Thanh Niên
+  © 2026 | 10A7 - THPT Bình Gia | Đoàn Thanh Niên
 </footer>
 
 </body>
